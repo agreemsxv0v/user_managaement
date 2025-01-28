@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+
+.App {
+    text-align: center;
+    padding: 20px;
+}
+
+.App h1 {
+    
+    margin: 20px 0;
+    font-size: 1.5 rem;
+    text-align: center;
+    margin: 25px;
+    font-weight: bold;
+  }
+  
+  @media (maxWidth: 768px) {
+    .App h1 {
+      font-size: 1.0 rem;
+      margin: 20px;
+    }
+  }
+  
+  @media (maxWidth: 480px) {
+    .App h1 {
+      font-size: 0.8 rem;
+      margin: 15px;
+    }
+  }
+
+
+/* Styling for the h2 */
+.user-list-container h2 {
+    text-align: left;
+    margin: 20px;
+    font-size: 1.2 rem;
+    font-weight: bold;
+  }
+  
+
+  @media (maxWidth: 768px) {
+    .user-list-container h2 {
+      font-size: 1.0 rem;
+      margin: 15px;
+    }
+  }
+  
+  @media (maxWidth: 480px) {
+    .user-list-container h2 {
+      font-size: 0.8 rem;
+      margin: 10px;
+    }
+  }
+  
+  
+  
